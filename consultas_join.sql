@@ -1,1 +1,0 @@
-﻿SELECT tipo_servicio,fecha_inicio,fecha_fin,inventario.tipo,equipo.num_serie FROM servicio INNER JOIN inventario ON (servicio.id_servicio = inventario.id_inventario) INNER JOIN equipo ON (equipo.id_equipo = inventario.id_inventario);
